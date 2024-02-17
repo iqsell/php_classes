@@ -1,6 +1,7 @@
 <?php
 
-function Intersection($a1, $b1, $a2, $b2) {
+function Intersection(int $a1, int $b1, int $a2, int $b2): string
+{
     $first = max($a1, $a2);
     $second = min($b1, $b2);
 
