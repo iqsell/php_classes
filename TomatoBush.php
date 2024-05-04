@@ -1,9 +1,9 @@
 <?php
+
 require_once 'Tomato.php';
 
 class TomatoBush
 {
-
     private array $tomatoes = [];
 
     public function __construct(int $numTomatoes)
