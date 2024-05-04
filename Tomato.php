@@ -7,20 +7,6 @@ class Tomato
     const GREEN_TOMATO = 2;
     const RED_TOMATO = 3;
 
-    private int $index;
-    private int $state;
-
-    public function __construct(int $index)
-    {
-        $this->index = $index;<?php
-
-class Tomato
-{
-    const NOTHING = 0;
-    const FLOWER = 1;
-    const GREEN_TOMATO = 2;
-    const RED_TOMATO = 3;
-
 
 
     private int $index;
